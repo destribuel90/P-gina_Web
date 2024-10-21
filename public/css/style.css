@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    box-sizing: border-box;
+    flex: 1;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    width: 80vw;
+    background-color: antiquewhite;
+    margin-bottom: 15px;    
+}   
+footer{
+    border-radius: 16px;
+    color: aliceblue;
+    background: black;
+    width: 100vw;
+    box-sizing: border-box;
+    height: 30px;
+    padding: 10px;
+}
+body{
+    margin: 0;
+}
+aside{
+    width: 20vw;
+}
+article {
+    display: grid;
+    gap: 10px;
+    flex: 1;
+    grid-template-columns: repeat(3, 1fr);
+}
+.menu{
+    display: flex;
+    width: 100vw;
+    gap: 20px;
+}
+header{
+    width: 100vw;
+    box-sizing: border-box;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.productos{
+    background-color: lightblue;
+    border-radius: 16px;
+}
